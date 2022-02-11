@@ -6,7 +6,6 @@ Un aplicación en la cual se vende ropa el usuario podra seleccionar la ropa que
 ![Evidencia1](https://user-images.githubusercontent.com/95297941/153531766-fe0668bf-89f5-4701-99d1-e22e752a2032.jpeg)
 
 # Generar pago en PayPhone
-Pagina donde el usuario debera ingresar la información para la generación del pago
 ![Evidencia 2](https://user-images.githubusercontent.com/95297941/153531776-0f840c68-1dca-4e95-93d9-012ae1c96b2c.jpeg)
 
 # Pago generado en PayPhone
