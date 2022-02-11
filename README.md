@@ -1,4 +1,4 @@
-# Tarea_PayPhoneç
+# Tarea_PayPhone
 
 Un aplicación en la cual se vende ropa el usuario podra seleccionar la ropa que desee dandole clic al carrito y en caso que no desee eliminar alguna prenda da clic en el botón quitar carrito, el usuario podra visualizar en la parte inferior el total de prendas y total a pagar. Cuando el usuario finalice sus compras dará clic en en botón pagar la cual direccionara a otra página donde deberá ingresar la información requerida para generar el pago en PayPhone.
 
