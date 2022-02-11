@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Comercial">
+
+
+    <ImageView
+        android:id="@+id/imgEvaluar"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:padding="4dp"
+        android:src="@drawable/pagar"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/txtlogin"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="81dp"
+        android:text="App Pasarela de Pago"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblphoneNumber"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtlogin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="213dp"
+        android:text="Número teléfono"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtphoneNumber"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblphoneNumber"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+
+    <TextView
+        android:id="@+id/lblclienteid"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtphoneNumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="250dp"
+        android:text="Identificación"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtclienteid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblclienteid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/lblmonto"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtclienteid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="250dp"
+        android:text="Monto"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtmonto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblmonto"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:enabled="false" />
+
+
+
+
+    <TextView
+        android:id="@+id/lblref"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmonto"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="250dp"
+        android:text="Referencia"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lblref"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:enabled="false" />
+
+    <Button
+        android:id="@+id/btngenerar"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtref"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="126dp"
+        android:text="Generar pago" />
+
+
+
+</RelativeLayout>

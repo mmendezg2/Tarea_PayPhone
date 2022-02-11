@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtlogin"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="ShopWomen"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgproduc1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:padding="4dp"
+        android:src="@drawable/ropa1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="50dp"
+        android:text="Nombre:"
+        android:textColor="#1B1B1B"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/namesensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="50dp"
+        android:text="Camisa blanca elegante"
+        android:textColor="#191717" />
+
+    <TextView
+        android:id="@+id/textprecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="80dp"
+        android:text="Precio:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameprecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="80dp"
+        android:text="10.00"
+        android:textColor="#191616" />
+
+    <Button
+        android:id="@+id/btnproduct1"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:text="Añadir Carrito"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnquitar1"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="100dp"
+        android:text="Quitar carrito"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imgproduc2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="180dp"
+        android:padding="4dp"
+        android:src="@drawable/ropa2" />
+
+    <TextView
+        android:id="@+id/textViewProduct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="180dp"
+        android:text="Nombre:"
+        android:textColor="#1B1B1B"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/namesproduct2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="180dp"
+        android:text="Short gris deportivo"
+        android:textColor="#191717" />
+
+    <TextView
+        android:id="@+id/textprecio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="210dp"
+        android:text="Precio:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameprecio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="210dp"
+        android:text="15.00"
+        android:textColor="#191616" />
+
+    <Button
+        android:id="@+id/btnproduct2"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="240dp"
+        android:text="Añadir Carrito"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnquitar2"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="240dp"
+        android:text="Quitar carrito"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+
+
+
+
+
+    <ImageView
+        android:id="@+id/imgproduc3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="300dp"
+        android:padding="4dp"
+        android:src="@drawable/prenda3" />
+
+    <TextView
+        android:id="@+id/textViewProduct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="300dp"
+        android:text="Nombre:"
+        android:textColor="#1B1B1B"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/namesproduct3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="300dp"
+        android:text="Short gris deportivo"
+        android:textColor="#191717" />
+
+    <TextView
+        android:id="@+id/textprecio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="330dp"
+        android:text="Precio:"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameprecio3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="330dp"
+        android:text="8.00"
+        android:textColor="#191616" />
+
+    <Button
+        android:id="@+id/btnproduct3"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="360dp"
+        android:text="Añadir Carrito"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnquitar3"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="265dp"
+        android:layout_marginTop="360dp"
+        android:text="Quitar carrito"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+
+
+
+
+
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="460dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/lbltotalprendas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="470dp"
+        android:text="Total de prendas:"
+        android:textColor="#191616"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttotalprendas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="470dp"
+        android:text="0"
+        android:textColor="#191616" />
+
+    <TextView
+        android:id="@+id/lbldetalle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:text="Total a pagar:"
+        android:textColor="#191616"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbltotoalpagar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="500dp"
+        android:text="0"
+        android:textColor="#191616" />
+
+    <Button
+        android:id="@+id/btnpagar"
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="520dp"
+        android:text="Pagar"
+        android:textAllCaps="false"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>
